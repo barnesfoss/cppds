@@ -878,7 +878,7 @@ class Airplane: public Vehicle
         the output stays 1, until the reset input is toggled to 1 which resets
         the output of the circuit back to zero.</p>
 
-    <program xml:id="nor_gate_flipflop_ac" interactive="activecode" language="python" label="nor_gate_flipflop_ac-prog"><code>
+    <program xml:id="nor_gate_flipflop_ac" interactive="activecode" language="cpp" label="nor_gate_flipflop_ac-prog"><code>
 #include &lt;iostream&gt;
 #include &lt;string&gt;
 using namespace std;
