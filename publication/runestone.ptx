@@ -23,8 +23,12 @@ along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
 <publication>
 
     <source>
-        <directories external="Figures" generated="GenFigs"/>
+        <directories generated="GenFigs"/>
     </source>
+
+    <docinfo>
+        <directories external="Figures" />
+    </docinfo>
 
     <html>
         <platform host="runestone"/>

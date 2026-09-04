@@ -1,9 +1,12 @@
 <!-- Testing for Runestone -->
 <publication>
-
     <source>
-        <directories external="Figures" generated="GenFigs" />
+        <directories generated="GenFigs" />
     </source>
+
+    <docinfo>
+        <directories external="Figures" />
+    </docinfo>
 
     <html>
         <platform host="web" />
