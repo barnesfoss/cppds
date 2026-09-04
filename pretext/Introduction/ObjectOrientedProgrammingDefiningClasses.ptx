@@ -297,7 +297,7 @@ int main() {
                 </task>
                 <task xml:id="showmethod-py" label="showmethod_py">
                     <title>Python</title>
-                    <statement><program interactive="activecode" language="python" label="showmethod_py-prog"><input>
+                    <statement><program interactive="activecode" language="python" label="showmethod_py-prog"><code>
 class Fraction:
 
     def __init__(self,top = 0,bottom = 1):
@@ -320,7 +320,7 @@ def main():
     # notice print(fraca) will give you an unexpected output
 
 main()
-                    </input></program></statement>
+                    </code></program></statement>
                 </task>
             </exploration>
 
