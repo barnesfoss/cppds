@@ -10,7 +10,7 @@
             representation of the tree, before implementing the operations
             themselves in C++.
            </p>
-       <introduction/>
+       </introduction>
 
         <subsection xml:id="trees_the-structure-property">
             <title>The Structure Property</title>
