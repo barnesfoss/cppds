@@ -38,19 +38,12 @@ jobs:
       - name: Compile Book
         run: python -m pretext build web
 
-      - name: Package website
-        # Create a tar archive for GitHub Pages
-        run: |
-          cd output/web
-          tar --dereference --hard-dereference -cf $RUNNER_TEMP/artifact.tar .
-          cd -
-
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v5
         id: deployment
         with:
           name: github-pages
-          path: ${{ runner.temp }}/artifact.tar
+          path: output/web
           retention-days: 1
 
   deploy:
