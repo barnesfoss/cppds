@@ -1,7 +1,6 @@
 <?xml version="1.0" ?><section xml:id="trees_binary-heap-implementation">
+        <title>Binary Heap Implementation</title>
         <introduction>
-            <title>Binary Heap Implementation</title>
-
             <p>
             To implement the operations we just described, our binary heap must
             maintain two properties as items are added and removed: the
