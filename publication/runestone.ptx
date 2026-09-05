@@ -21,14 +21,9 @@ along with PreTeXt.  If not, see <http://www.gnu.org/licenses/>.
 
 <!-- Testing for Runestone -->
 <publication>
-
     <source>
-        <directories generated="GenFigs"/>
+        <directories generated="GenFigs" />
     </source>
-
-    <docinfo>
-        <directories external="Figures" />
-    </docinfo>
 
     <html>
         <platform host="runestone"/>

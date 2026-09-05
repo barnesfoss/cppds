@@ -4,10 +4,6 @@
         <directories generated="GenFigs" />
     </source>
 
-    <docinfo>
-        <directories external="Figures" />
-    </docinfo>
-
     <html>
         <platform host="web" />
         <!-- knowled checkpoints interfere with ActiveCode problems -->
